@@ -1,13 +1,56 @@
 body {
-      font-size: 16pt;
+      font-size: 16px;
       color: black;
       line-height: 24px;
       font-weight: regular;
       font-family: "Roboto medium";
 }
 h2 {
-      font-size: 24pt;
+      font-size: 24px;
 }
 h3 {
-      font-size: 16pt;
+      font-size: 16px;
+}
+
+.container {
+  width: 1160px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  width: 180px;
+  margin-right: 180px;
+
+}
+.main-nav {
+  width: 440px;
+  float: left;
+}
+.user-block {
+float: right;
+  width: 169px;
+}
+.main-nav li {
+  display: inline-block;
+}
+.left {
+  float: left;
+}
+.features-name {
+  font-size: 55px;
+}
+.mobile-img {
+float: right;
+
+}
+.features {
+margin-bottom: 81px;
+
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
