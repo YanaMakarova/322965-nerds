@@ -114,6 +114,10 @@ float: left;
   float: left;
   margin-right: 130px;
 }
+.footer-name {
+  font-size: 36px;
+  font-weight: bold;
+}
 .footer-text {
   float: right;
   margin-right: 203px;
