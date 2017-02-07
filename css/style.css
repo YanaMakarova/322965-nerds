@@ -1,7 +1,6 @@
 body {
       font-size: 16px;
       color: black;
-      line-height: 24px;
       font-weight: regular;
       font-family: "Roboto medium";
 }
@@ -29,12 +28,13 @@ ul {
   float: left;
   width: 180px;
   margin-right: 180px;
+  margin-bottom: 40px;
 
 }
 .nav-list {
   width: 440px;
   float: left;
-  margin-right: 200px;
+  margin-right: 100px;
 }
 .nav-list li {
   display: inline-block;
@@ -78,16 +78,19 @@ float: left;
 }
 .info-left-ad {
   font-size: 45px;
+  margin-bottom: 40px;
 }
 .info-right {
   float: right;
 }
 .advert {
   width: 360px;
+  margin-top: 48px;
 }
 .number {
   font-size: 45px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 .quality {
   float: left;
@@ -107,8 +110,29 @@ float: left;
 
   margin-bottom: 80px;
 }
+.adlogo {
+  height: 181px;
+}
 .adlogo li {
   display: inline-block;
+}
+.htmlak {
+  margin-left: 31px;
+  margin-right: 105px;
+}
+.barber {
+  margin-right: 100px;
+}
+.pink {
+  margin-right: 117px;
+}
+.naming {
+  font-size: 18px;
+  font-weight: bold;
+}
+.main-footer {
+  margin-top: 70px;
+
 }
 .footer-social {
   float: left;
