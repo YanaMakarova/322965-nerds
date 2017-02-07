@@ -4,8 +4,13 @@ body {
       font-weight: regular;
       font-family: "Roboto medium";
 }
+h1 {
+  font-size: 55px;
+  font-weight: normal;
+}
 h2 {
-      font-size: 24px;
+      font-size: 18px;
+      font-weight: bold;
 }
 h3 {
       font-size: 16px;
@@ -146,8 +151,65 @@ float: left;
   float: right;
   margin-right: 203px;
 }
+.header-title {
+  margin-left: 216px;
+  margin-right: 200px;
+  margin-top: 80px;
+  margin-bottom: 105px;
+}
+.main {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.content-left {
+  float: left;
+  width: 260px;
+  margin-right: 140px;
+}
+.price-range {
+  margin-top: 50px;
+}
+label {
+  display: block;
+}
+.net {
+  margin-top: 50px;
+}
+.features2 {
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+.content-right {
+  float: right;
+  width: 760px;
+
+}
+.content-right-title {
+  margin-bottom: 50px;
+}
+.sorting-list li {
+  display: inline-block;
+}
+.sorting {
+  float: left;
+}
+.sorting-list {
+  float: right;
+  font-size: 14px;
+}
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
+}
+.item-list2 li {
+  display: inline-block;
+}
+.items {
+  display: inline-block;
+  width: 360px;
+  margin-left: 40px;
+}
+.btn-list li {
+  display: inline-block;
 }

@@ -4,10 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <header class="main-header">
+  <header class="main-header clearfix">
     <div class="container">
       <div class="logo">
         <a href="#"><img src="img/nerds-index/logo-nerds.png" alt="nerds"></a>
@@ -29,11 +30,11 @@
         <a class="basket" href="#">Корзина</a>
       </div>
     </div>
-    <div class="header-title">
+    <div class="header-title clearfix">
       <h1>Магазин готовых шаблонов</h1>
     </div>
   </header>
-  <section class="main">
+  <section class="main clearfix">
     <div class="container">
       <section class="content-left">
         <div class="price">
@@ -56,7 +57,7 @@
             </label>
           </form>
         </div>
-        <div class="features">
+        <div class="features2">
           <h2>Особенности:</h2>
           <label>
             <input type="checkbox" name="maker" checked> Слайдер
@@ -80,8 +81,10 @@
         </form>
       </section>
       <section class="content-right">
-        <div class="content-right-title">
-          <h2>сортировать:</h2>
+        <div class="content-right-title clearfix">
+          <div class="sorting">
+            <h2>сортировать:</h2>
+          </div>
           <ul class="sorting-list">
             <li class="sorting-item">по цене</li>
             <li class="sorting-item">
@@ -101,7 +104,7 @@
             <li class="items">
               <div class="item">
                 <div class="item-header">
-                  <ul class="item-list">
+                  <ul class="item-list2">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -124,7 +127,7 @@
             <li class="items">
               <div class="item">
                 <div class="item-header">
-                  <ul class="item-list">
+                  <ul class="item-list2">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -140,7 +143,7 @@
             <li class="items">
               <div class="item">
                 <div class="item-header">
-                  <ul class="item-list">
+                  <ul class="item-list2">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -156,7 +159,7 @@
             <li class="items">
               <div class="item">
                 <div class="item-header">
-                  <ul class="item-list">
+                  <ul class="item-list2">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -172,7 +175,7 @@
             <li class="items">
               <div class="item">
                 <div class="item-header">
-                  <ul class="item-list">
+                  <ul class="item-list2">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -188,7 +191,7 @@
             <li class="items">
               <div class="item">
                 <div class="item-header">
-                  <ul class="item-list">
+                  <ul class="item-list2">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -219,31 +222,28 @@
           </ul>
         </div>
       </section>
-      <section class="map">
-        <article class="location">
-          <h3>Nerds Disign Studio</h3>
-          <p>191186, Санкт Петербург,<br> ул. Б. Конюшенная д.19/8
-          </p>
-          <p>тел: +7(812) 275-75-75
-          </p>
-          <a class="btn" href="#">Напишите нам</a>
-        </article>
-        <div class="logo">
-          <img src="img/nerds-index/map-marker.jpg" alt="nerds-map">
-        </div>
-      </section>
-      <footer class="main-footer ">
-        <div class="footer-social ">
-          <a class="social-btn social-btn-vk " href="# ">Вконтакте</a>
-          <a class="social-btn social-btn-fb " href="# ">Фейсбук</a>
-          <a class="social-btn social-btn-inst " href="# ">Инстаграм</a>
-        </div>
-        <b>Давайте дружить, это выгодно!</b>
-        <p>Скидка 10% для друзей из социальных сетей
-        </p>
-      </footer>
     </div>
   </section>
+  <section class="map clearfix">
+    <div class="logo">
+      <img src="img/nerds-index/map-marker.jpg" alt="nerds-map">
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-social">
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      </div>
+      <div class="footer-text">
+        <div class="footer-name">Давайте дружить, это выгодно!
+        </div>
+        <p>Скидка 10% для друзей из социальных сетей
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
