@@ -153,8 +153,8 @@ float: left;
   margin-right: 203px;
 }
 .header-title {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 150px;
+  margin-right: 150px;
   margin-top: 80px;
   margin-bottom: 105px;
 }
@@ -205,22 +205,32 @@ label {
 }
 .content-right-fig {
   width: 760px;
-}
 
-/*.fig-list2 li {
+}
+.fig-list {
+  font-size: 0;
+}
+.fig-list2 li {
   display: inline-block;
-}*/
+}
 
 .figs {
   display: inline-block;
   width: 360px;
+  font-size: 16px;
 
 
 }
 .figs:nth-child(2n) {
   margin-left: 40px;
 }
-
+.fig-info {
+  height: 231px;
+}
+.fig-info-header {
+  font-size: 18px;
+  font-weight: bold;
+}
 .btn-list li {
   display: inline-block;
 }
