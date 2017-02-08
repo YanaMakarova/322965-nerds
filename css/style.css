@@ -1,4 +1,5 @@
 body {
+  width: 1200px;
       font-size: 16px;
       color: black;
       font-weight: regular;
@@ -152,8 +153,8 @@ float: left;
   margin-right: 203px;
 }
 .header-title {
-  margin-left: 216px;
-  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 80px;
   margin-bottom: 105px;
 }
@@ -202,19 +203,24 @@ label {
   display: table;
   clear: both;
 }
-.content-right-item {
+.content-right-fig {
   width: 760px;
 }
 
-.item-list2 li {
+.fig-list2 li {
   display: inline-block;
 }
 
-.items {
+.figs {
   display: inline-block;
   width: 360px;
+
+
+}
+.figs:nth-child(2n) {
   margin-left: 40px;
 }
+
 .btn-list li {
   display: inline-block;
 }
