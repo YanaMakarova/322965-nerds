@@ -164,7 +164,7 @@ float: left;
 .content-left {
   float: left;
   width: 260px;
-  margin-right: 140px;
+
 }
 .price-range {
   margin-top: 50px;
@@ -202,9 +202,14 @@ label {
   display: table;
   clear: both;
 }
+.content-right-item {
+  width: 760px;
+}
+
 .item-list2 li {
   display: inline-block;
 }
+
 .items {
   display: inline-block;
   width: 360px;
