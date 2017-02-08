@@ -153,10 +153,7 @@ float: left;
   margin-right: 203px;
 }
 .header-title {
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-top: 80px;
-  margin-bottom: 105px;
+text-align: center;
 }
 .main {
   margin-top: 60px;
