@@ -20,8 +20,18 @@ h3 {
 ul {
   padding: 0;
 }
-.main-header {
-  margin-bottom: 20px;
+.main-header, .header-title {
+  background-color: #eeeeee;
+  color: #000000;
+}
+.main-header a {
+  color: #000000;
+}
+.nav-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
 }
 
 .container {
@@ -33,23 +43,62 @@ ul {
 .logo {
   float: left;
   width: 180px;
-  margin-right: 180px;
+  margin-right: 150px;
   margin-bottom: 40px;
 
 }
 .nav-list {
-  width: 440px;
   float: left;
-  margin-right: 100px;
-}
-.nav-list li {
-  display: inline-block;
-}
-.basket {
-float: right;
-  width: 169px;
 }
 
+.nav-list li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+.nav-list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 80px 23px 25px;
+}
+.nav-list a:hover {
+  color: #fb565a;
+}
+
+
+.basket {
+float: right;
+  max-width: 160px;
+}
+
+.bask {
+  display: inline-block;
+   font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    padding: 80px 23px 25px;
+    padding-left: 80px;
+    position: relative;
+}
+.bask:hover {
+  color: #fb565a;
+}
+.bask::before {
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  background: #ff0000;
+
+}
+.features {
+  background-color: #eeeeee;
+}
 .left {
   float: left;
 }
@@ -64,6 +113,28 @@ margin-right: 30px;
 .features {
 margin-bottom: 81px;
 }
+.more-info {
+  display: block;
+  width: 240px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #fb565a;
+  color: #ffffff;
+  padding: 18px 54px;
+  text-align: center;
+  vertical-align: top;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.more-info:hover {
+  background-color: #e74246;
+}
+.more-info:active {
+  background-color: #d7373b;
+
+}
+
 .main-content {
   margin-bottom: 88px;
   font-size: 0;
@@ -137,7 +208,8 @@ float: left;
   font-weight: bold;
 }
 .main-footer {
-  margin-top: 70px;
+  margin-top: 69px;
+  margin-bottom: 76px;
 
 }
 .footer-social {
@@ -215,8 +287,8 @@ label {
   display: inline-block;
   width: 360px;
   font-size: 16px;
-
-
+  vertical-align: top;
+  margin-bottom: 36px;
 }
 .figs:nth-child(2n) {
   margin-left: 40px;
@@ -230,4 +302,5 @@ label {
 }
 .btn-list li {
   display: inline-block;
+  margin-top: 24px;
 }
