@@ -4,6 +4,7 @@ body {
       color: black;
       font-weight: regular;
       font-family: "Roboto medium";
+      display: none;
 }
 h1 {
   font-size: 55px;
@@ -104,6 +105,7 @@ float: right;
 }
 .features-name {
   font-size: 55px;
+  font-weight: medium;
 }
 .mobile-img {
 float: right;
