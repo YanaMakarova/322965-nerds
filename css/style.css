@@ -22,6 +22,7 @@ h2 {
 h3 {
       font-size: 16px;
       font-weight: bold;
+      text-transform: uppercase;
 }
 ul {
   padding: 0;
@@ -135,7 +136,7 @@ margin-top: -4px;
 .more-info {
   display: block;
   width: 240px;
-  height: 50px;
+
   font-size: 16px;
   font-weight: normal;
   background-color: #fb565a;
@@ -181,13 +182,14 @@ line-height: 21px;
 }
 .btn2 {
   display: block;
-  width: 160px;
-  height: 50px;
+  width: 106px;
+margin-top: 36px;
+
   font-size: 16px;
   font-weight: normal;
   background-color: #fb565a;
   color: #ffffff;
-  padding: 18px 27px;
+  padding: 16px 27px;
   text-align: center;
   vertical-align: top;
   text-transform: uppercase;
@@ -195,13 +197,13 @@ line-height: 21px;
 }
 .btn3 {
   display: block;
-width: 160px;
-height: 50px;
+width: 106px;
+margin-top: 36px;
 font-size: 16px;
 font-weight: normal;
 background-color: #00ca74;
 color: #ffffff;
-padding: 18px 27px;
+padding: 16px 27px;
 text-align: center;
 vertical-align: top;
 text-transform: uppercase;
@@ -210,13 +212,13 @@ text-decoration: none;
 
 .btn4 {
   display: block;
-width: 160px;
-height: 50px;
+width: 106px;
+margin-top: 36px;
 font-size: 16px;
 font-weight: normal;
 background-color: #efc84a;
 color: #ffffff;
-padding: 18px 27px;
+padding: 16px 27px;
 text-align: center;
 vertical-align: top;
 text-transform: uppercase;
@@ -231,19 +233,41 @@ float: left;
 }
 .info-left-ad {
   font-size: 45px;
-  margin-bottom: 40px;
+  margin-bottom: 33px;
+  margin-top: 67px;
+line-height: 45px;
 }
+.info-left-p {
+  line-height: 24px;
+margin-bottom: 41px;
+}
+.info-left-text h3 {
+margin-bottom: 31px;
+}
+
 .info-right {
   float: right;
+  margin-top: 33px;
 }
+.info-right-text {
+  margin-top: 35px;
+}
+.info-right-text h3 {
+  margin-left: 16px;
+}
+
 .advert {
-  width: 360px;
-  margin-top: 48px;
+  width: 350px;
+  margin-top: 42px;
 }
 .number {
   font-size: 45px;
   font-weight: bold;
   margin-bottom: 20px;
+
+}
+.text {
+  margin-top: -5px;
 }
 .quality {
   float: left;
@@ -264,17 +288,19 @@ float: left;
   margin-bottom: 80px;
 }
 .adlogo {
-  height: 181px;
+  margin-left: -12px;
+  padding-top: 0px;
 }
 .adlogo li {
   display: inline-block;
 }
 .htmlak {
-  margin-left: 31px;
+  margin-left: 43px;
   margin-right: 105px;
 }
 .barber {
-  margin-right: 100px;
+  margin-right: 97px;
+  margin-left: -11px;
 }
 .pink {
   margin-right: 117px;
@@ -283,9 +309,14 @@ float: left;
   font-size: 18px;
   font-weight: bold;
 }
+.map {
+  margin-top: -23px;
+margin-left: -45px;
+}
 .main-footer {
-  margin-top: 69px;
-  margin-bottom: 76px;
+  margin-top: 58px;
+margin-bottom: 70px;
+margin-left: 2px;
 
 }
 .footer-social {
@@ -299,6 +330,12 @@ float: left;
 .footer-text {
   float: right;
   margin-right: 203px;
+}
+.footer-text p {
+
+  margin-top: 8px;
+margin-left: 3px;
+}
 }
 .header-title {
 text-align: center;
